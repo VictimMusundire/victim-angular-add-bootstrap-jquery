@@ -1,0 +1,25 @@
+
+<div class="card-body mt-lg-5">
+<form action="" [formGroup] = "employeeForm" (ngSubmit)="onSubmit()" >
+
+<div class="mb-3">
+  <label class="form-label">Full Name</label>
+  <input type="email" class="form-control form-control-sm" formControlName="fullName"  placeholder="Enter Full Name">
+</div>
+
+  <div class="mb-3">
+    <label class="form-label">Username</label>
+    <input type="email" class="form-control form-control-sm" formControlName="username"  placeholder="Enter Name">
+  </div>
+
+<div class="mb-3">
+  <label  class="form-label">Email address</label>
+  <input type="email" class="form-control form-control-sm" formControlName="email"  placeholder="Enter Email">
+</div>
+
+  <div class="mb-3">
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+  </div>
+
+</form>
+</div>
